@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="URLn-t favicon">
+  <defs>
+    <style>
+      .bg   { fill: #171412; }
+      .r1   { fill: none; stroke: #F3EEE3; stroke-width: 2.4; opacity: 1; }
+      .r2   { fill: none; stroke: #F3EEE3; stroke-width: 2.2; opacity: 0.55; }
+      .r3   { fill: none; stroke: #8C3232; stroke-width: 2.4; opacity: 0.9; }
+      .node { fill: #8C3232; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="64" height="64" rx="14"/>
+
+  <g transform="translate(32,32)">
+    <rect class="r1" x="-22" y="-22" width="44" height="44" rx="9"  transform="rotate(0)"/>
+    <rect class="r2" x="-15" y="-15" width="30" height="30" rx="7"  transform="rotate(15)"/>
+    <rect class="r3" x="-8"  y="-8"  width="16" height="16" rx="4"  transform="rotate(30)"/>
+    <rect class="node" x="-3" y="-3" width="6" height="6" rx="1.6" transform="rotate(45)"/>
+  </g>
+</svg>

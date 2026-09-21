@@ -1,0 +1,28 @@
+<svg width="360" height="120" viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="URLn-t logo">
+  <defs>
+    <style>
+      .r1   { fill: none; stroke: #F3EEE3; stroke-width: 2.6; opacity: 1; }
+      .r2   { fill: none; stroke: #F3EEE3; stroke-width: 2.4; opacity: 0.55; }
+      .r3   { fill: none; stroke: #8C3232; stroke-width: 2.6; opacity: 0.9; }
+      .node { fill: #8C3232; }
+      .word {
+        font-family: 'Space Grotesk', 'General Sans', 'Cabinet Grotesk', 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        letter-spacing: -0.5px;
+        fill: #F3EEE3;
+      }
+    </style>
+  </defs>
+
+  <!-- icon -->
+  <g transform="translate(60,60)">
+    <rect class="r1" x="-40" y="-40" width="80" height="80" rx="16" transform="rotate(0)"/>
+    <rect class="r2" x="-28" y="-28" width="56" height="56" rx="12" transform="rotate(15)"/>
+    <rect class="r3" x="-15" y="-15" width="30" height="30" rx="7"  transform="rotate(30)"/>
+    <rect class="node" x="-5.5" y="-5.5" width="11" height="11" rx="2.6" transform="rotate(45)"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="140" y="78" class="word">URLn-t</text>
+</svg>
