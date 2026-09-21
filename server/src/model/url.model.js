@@ -1,0 +1,28 @@
+import mongoose from "mongoose";
+
+const urlSchema = new mongoose.Schema(
+  {
+    originalUrl: {
+      type: String,
+      required: true,
+      trim: true,
+      maxlength: 2048,
+    },
+    shortCode: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    count: {
+      type: Number,
+      default: 0,
+    },
+  },
+  {
+    timestamps: true,
+  },
+);
+
+const UrlModel = mongoose.model("urls", urlSchema);
+
+export default UrlModel
